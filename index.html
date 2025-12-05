@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Botão Brabo</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #dedo {
+            font-size: 80px;
+            margin-top: 20px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
 
+    <h2>Clique no botão e descubra sua surpresa 🤔</h2>
+
+    <button onclick="mostrar()">Clique aqui</button>
+
+    <div id="dedo">🖕</div>
+
+    <script>
+        function mostrar() {
+            document.getElementById("dedo").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
